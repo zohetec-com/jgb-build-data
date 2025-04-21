@@ -1,0 +1,25 @@
+From 1cd88a8e7ca51599bd579c3ee55f582d3ce03a46 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E9=BB=84=E5=BF=97=E6=95=8F?= <huangzhimin@zohetec.com>
+Date: Mon, 21 Apr 2025 17:53:12 +0800
+Subject: [PATCH] skip jgb.build
+
+---
+ Make.rules | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Make.rules b/Make.rules
+index f1ddc25..68d138f 100644
+--- a/Make.rules
++++ b/Make.rules
+@@ -78,7 +78,7 @@ DESTDIR =
+ 
+ 
+ #  layout stuff
+-SKIPDIRS = tmp%
++SKIPDIRS = tmp% jgb.build%
+ INCLUDEDIRS = include%
+ LIBDIRS = lib%
+ MODDIRS = mod%
+-- 
+2.34.1
+
