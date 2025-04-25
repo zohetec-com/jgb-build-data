@@ -1,4 +1,5 @@
 declare -A jgb_src
+declare -A jgb_home
 declare -A jgb_chk
 
 jgb_src[openssl-3.0.16]=https://github.com/openssl/openssl/releases/download/openssl-3.0.16/openssl-3.0.16.tar.gz
@@ -11,3 +12,11 @@ jgb_src[traceroute-2.1.6]=https://onboardcloud.dl.sourceforge.net/project/tracer
 jgb_src[jansson-2.14.1]=https://github.com/akheron/jansson/releases/download/v2.14.1/jansson-2.14.1.tar.gz
 jgb_src[libwebsockets-4.3.5]=https://libwebsockets.org/git/libwebsockets/snapshot/libwebsockets-v4.3.5.tar.gz
 #jgb_src[libwebsockets-4.3.5]=https://github.com/warmcat/libwebsockets/archive/refs/tags/v4.3.5.tar.gz
+
+jgb_src[ethtool-6.14]=https://git.kernel.org/pub/scm/network/ethtool/ethtool.git/snapshot/ethtool-6.14.tar.gz
+
+jgb_src[libmnl-1.0.5]=https://www.netfilter.org/pub/libmnl/libmnl-1.0.5.tar.bz2
+jgb_home[libmnl]=https://www.netfilter.org/projects/libmnl/
+
+#jgb_src[]=
+#jgb_home[]=
