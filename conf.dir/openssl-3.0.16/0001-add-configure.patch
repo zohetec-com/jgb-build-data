@@ -1,0 +1,21 @@
+From 18d5cb2933c4afffda9aa4c3d54128a3cd7dad6c Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E9=BB=84=E5=BF=97=E6=95=8F?= <huangzhimin@zohetec.com>
+Date: Sun, 27 Apr 2025 11:45:49 +0800
+Subject: [PATCH] add configure
+
+---
+ configure | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 120000 configure
+
+diff --git a/configure b/configure
+new file mode 120000
+index 0000000..448fb1f
+--- /dev/null
++++ b/configure
+@@ -0,0 +1 @@
++Configure
+\ No newline at end of file
+-- 
+2.34.1
+

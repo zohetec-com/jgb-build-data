@@ -10,7 +10,7 @@ jgb_src[tcpdump-4.99.5]=https://www.tcpdump.org/release/tcpdump-4.99.5.tar.xz
 jgb_src[traceroute-2.1.6]=https://onboardcloud.dl.sourceforge.net/project/traceroute/traceroute/traceroute-2.1.6/traceroute-2.1.6.tar.gz
 
 jgb_src[jansson-2.14.1]=https://github.com/akheron/jansson/releases/download/v2.14.1/jansson-2.14.1.tar.gz
-jgb_src[libwebsockets-4.3.5]=https://libwebsockets.org/git/libwebsockets/snapshot/libwebsockets-v4.3.5.tar.gz
+jgb_src[libwebsockets-v4.3.5]=https://libwebsockets.org/git/libwebsockets/snapshot/libwebsockets-v4.3.5.tar.gz
 #jgb_src[libwebsockets-4.3.5]=https://github.com/warmcat/libwebsockets/archive/refs/tags/v4.3.5.tar.gz
 
 jgb_src[ethtool-6.14]=https://git.kernel.org/pub/scm/network/ethtool/ethtool.git/snapshot/ethtool-6.14.tar.gz

@@ -1,5 +1,0 @@
-declare -A JGB_BUILD_CONFIGURE_OPTIONS
-declare -A JGB_BUILD_CROSS
-
-JGB_BUILD_CROSS["aarch64"]=aarch64-linux-gnu-
-JGB_BUILD_CONFIGURE_OPTIONS["aarch64"]="--host=aarch64-linux-gnu"
