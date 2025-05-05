@@ -20,5 +20,8 @@ jgb_home[libmnl]=https://www.netfilter.org/projects/libmnl/
 
 jgb_src[chrony-4.6.1]=https://chrony-project.org/releases/chrony-4.6.1.tar.gz
 
+jgb_src[pcre2-10.45]=https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.45/pcre2-10.45.tar.gz
+jgb_home[pcre2-10.45]=https://www.pcre.org/
+
 #jgb_src[]=
 #jgb_home[]=
