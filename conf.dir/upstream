@@ -2,6 +2,7 @@ declare -A jgb_src
 declare -A jgb_src_home
 declare -A jgb_src_chksum
 
+jgb_src[boost_1_74_0]=https://archives.boost.io/release/1.74.0/source/boost_1_74_0.tar.bz2
 jgb_src[openssl-3.0.16]=https://github.com/openssl/openssl/releases/download/openssl-3.0.16/openssl-3.0.16.tar.gz
 jgb_src_chksum[openssl-3.0.16]=https://github.com/openssl/openssl/releases/download/openssl-3.0.16/openssl-3.0.16.tar.gz.sha256
 
