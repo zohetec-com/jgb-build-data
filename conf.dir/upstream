@@ -28,6 +28,7 @@ jgb_src[jgb]=https://github.com/zohetec-com/jgb.git
 jgb_src[jgb-headers]=https://github.com/zohetec-com/jgb-headers.git
 jgb_src[jgb-build]=https://github.com/zohetec-com/jgb-build.git
 jgb_src[jgb-build-data]=https://github.com/zohetec-com/jgb-build-data.git
+jgb_src[jgb-build-example]=https://github.com/zohetec-com/jgb-build-example.git
 
 #jgb_src[]=
 #jgb_src_home[]=
