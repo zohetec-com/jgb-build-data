@@ -2,6 +2,12 @@ declare -A jgb_src
 declare -A jgb_src_home
 declare -A jgb_src_chksum
 
+jgb_src[ncurses-6.3]=https://invisible-island.net/archives/ncurses/ncurses-6.3.tar.gz
+jgb_src_home[ncurses-6.3]=https://invisible-island.net/ncurses/
+
+jgb_src[sqlite-autoconf-3500400]=https://sqlite.org/2025/sqlite-autoconf-3500400.tar.gz
+jgb_sr[util-linux-2.41.1]=https://github.com/util-linux/util-linux/archive/refs/tags/v2.41.zip
+
 jgb_src[curl-7.81.0]=https://curl.se/download/curl-7.81.0.tar.bz2
 jgb_src[boost_1_74_0]=https://archives.boost.io/release/1.74.0/source/boost_1_74_0.tar.bz2
 jgb_src[openssl-3.0.16]=https://github.com/openssl/openssl/releases/download/openssl-3.0.16/openssl-3.0.16.tar.gz

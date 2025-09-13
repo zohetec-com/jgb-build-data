@@ -1,0 +1,1 @@
+JGB_BUILD_CONFIGURE_OPTIONS="--disable-stripping"

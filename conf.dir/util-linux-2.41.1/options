@@ -1,0 +1,1 @@
+JGB_BUILD_CONFIGURE_OPTIONS="--with-bashcompletiondir=$JGB_BUILD_DESTDIR/share"
