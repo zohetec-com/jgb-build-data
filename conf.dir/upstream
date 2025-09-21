@@ -5,6 +5,8 @@ declare -A jgb_src_chksum
 #jgb_src[]=
 #jgb_src_home[]=
 
+jgb_src[libtraceevent-1.8.4]=https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git/snapshot/libtraceevent-1.8.4.tar.gz
+
 jgb_src[elfutils-0.193]=https://sourceware.org/elfutils/ftp/0.193/elfutils-0.193.tar.bz2
 jgb_src_home[elfutils-0.193]=https://sourceware.org/elfutils/
 
