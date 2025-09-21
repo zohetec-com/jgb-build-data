@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ $JGB_BUILD_BUILD_ARCH != $JGB_BUILD_HOST_ARCH ] ; then
+  if [ "$JGB_BUILD_HOST_ARCH" == aarch64 ] ; then
+	cd tools/perf
+	export PKG_CONFIG_PATH=${JGB_BUILD_DESTDIR}/lib/pkgconfig:${JGB_BUILD_DESTDIR}/lib64/pkgconfig:${JGB_BUILD_DESTDIR}/share/pkgconfig
+	export EXTRA_CFLAGS="-I${JGB_BUILD_DESTDIR}/include -I${JGB_BUILD_DESTDIR}/include/elfutils -I${JGB_BUILD_DESTDIR}/include/traceevent/"
+	export LDFLAGS="-L${JGB_BUILD_DESTDIR}/lib -L${JGB_BUILD_DESTDIR}/lib64 -lz -lelf"
+	make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- clean
+	make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- NO_JEVENTS=1
+  fi
+fi
+
