@@ -1,6 +1,6 @@
 JGB_BUILD_CONFIGURE_OPTIONS_HOST=no
-if [ -n "${JGB_BUILD_CONFIG_HOST[${JGB_BUILD_BUILD_ARCH}-${JGB_BUILD_TARGET_ARCH}]}" ] ; then
+if [ -n "${JGB_BUILD_CONFIG_HOST[${JGB_BUILD_BUILD_ARCH}-${JGB_BUILD_HOST_ARCH}]}" ] ; then
   # https://github.com/openssl/openssl/issues/7655 提到下面的链接
   # https://wiki.openssl.org/index.php/Compilation_and_Installation
-  JGB_BUILD_CONFIGURE_OPTIONS="--cross-compile-prefix=${JGB_BUILD_CONFIG_HOST[${JGB_BUILD_BUILD_ARCH}-${JGB_BUILD_TARGET_ARCH}]}- linux-aarch64"
+  JGB_BUILD_CONFIGURE_OPTIONS="--cross-compile-prefix=${JGB_BUILD_CONFIG_HOST[${JGB_BUILD_BUILD_ARCH}-${JGB_BUILD_HOST_ARCH}]}- linux-aarch64"
 fi
