@@ -5,6 +5,10 @@ declare -A jgb_src_chksum
 #jgb_src[]=
 #jgb_src_home[]=
 
+jgb_src[zstd-1.5.7]=https://github.com/facebook/zstd/archive/refs/tags/v1.5.7.zip
+jgb_src[xz-5.8.1]=https://github.com/tukaani-project/xz/releases/download/v5.8.1/xz-5.8.1.tar.bz2
+jgb_src[lz4-1.10.0]=https://github.com/lz4/lz4/archive/refs/tags/v1.10.0.zip
+
 jgb_src[libtraceevent-1.8.4]=https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git/snapshot/libtraceevent-1.8.4.tar.gz
 
 jgb_src[elfutils-0.193]=https://sourceware.org/elfutils/ftp/0.193/elfutils-0.193.tar.bz2

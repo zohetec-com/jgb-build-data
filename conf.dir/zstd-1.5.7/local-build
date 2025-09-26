@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ $JGB_BUILD_BUILD_ARCH != $JGB_BUILD_HOST_ARCH ] ; then
+  if [ "$JGB_BUILD_HOST_ARCH" == aarch64 ] ; then
+  	export LDFLAGS="-L${JGB_BUILD_DESTDIR}/lib"
+  	export CC=${JGB_BUILD_HOST}-gcc
+	make aarch64build CFLAGS="-I${JGB_BUILD_DESTDIR}/include"
+	make install DESTDIR=${JGB_BUILD_DESTDIR} prefix=/
+  fi
+fi
