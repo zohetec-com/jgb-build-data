@@ -1,0 +1,10 @@
+只要有可能，就使能编译动态库。
+
+PROGRAM 安装到 bin 或者 sbin。
+-- usr/bin，usr/sbin 也可接受。
+-- 避免使用 usr/local/bin 或者 usr/local/sbin。
+-- 希望使工作简单一些。
+
+动态库安装到 lib。
+-- usr/lib 也可接受。
+-- 避免使用 usr/local/lib。
