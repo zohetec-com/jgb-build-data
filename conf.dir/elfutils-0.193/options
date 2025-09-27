@@ -1,2 +1,2 @@
 LDFLAGS+=" -lz"
-JGB_BUILD_CONFIGURE_OPTIONS="--enable-install-elfh"
+CONFIGURE_OPTIONS="--enable-install-elfh"

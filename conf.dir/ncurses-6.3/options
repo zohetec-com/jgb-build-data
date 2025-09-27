@@ -1,4 +1,4 @@
-JGB_BUILD_CONFIGURE_OPTIONS=\
+CONFIGURE_OPTIONS=\
 "--disable-stripping \
  --with-termlib=tinfo \
   --with-shared --without-normal --without-debug \
