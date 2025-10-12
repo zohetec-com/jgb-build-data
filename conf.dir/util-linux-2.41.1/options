@@ -1,1 +1,3 @@
 CONFIGURE_OPTIONS="--with-bashcompletiondir=$JGB_BUILD_DESTDIR/share"
+JGB_BUILD_BACK_END=autoconf
+JGB_BUILD_INSTALL_FAKEROOT=yes
