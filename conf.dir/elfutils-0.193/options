@@ -1,2 +1,2 @@
-LDFLAGS+=" -lz"
+LDFLAGS_OPTIONS="-lz -lzstd -llzma"
 CONFIGURE_OPTIONS="--enable-install-elfh"
