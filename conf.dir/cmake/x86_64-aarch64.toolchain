@@ -8,7 +8,7 @@ set(CMAKE_CXX_COMPILER aarch64-linux-gnu-g++)
 # https://stackoverflow.com/questions/32866503/get-the-system-home-directory-in-cmake-on-linux
 # where is the target environment located
 set(CMAKE_FIND_ROOT_PATH  /usr/aarch64-linux-gnu/;
-    $ENV{HOME}/jgb-build.dir/Release/aarch64/)
+    $ENV{HOME}/jgb-build.dir/$ENV{JGB_BUILD_TYPE}/aarch64/)
 
 # adjust the default behavior of the FIND_XXX() commands:
 # search programs in the host environment
