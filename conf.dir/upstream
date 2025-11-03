@@ -6,6 +6,8 @@ declare -A jgb_src_chksum
 #jgb_src_home[]=
 
 jgb_src[libmicrohttpd-1.0.2]=https://ftp.gnu.org/gnu/libmicrohttpd/libmicrohttpd-1.0.2.tar.gz
+
+jgb_src[yaml-0.2.5]=https://github.com/yaml/libyaml/releases/download/0.2.5/yaml-0.2.5.zip
 jgb_src[fluent-bit-4.1.1]=https://github.com/fluent/fluent-bit/archive/refs/tags/v4.1.1.zip
 
 jgb_src[jq-1.8.1]=https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-1.8.1.tar.gz
