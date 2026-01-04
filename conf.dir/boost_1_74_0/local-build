@@ -8,11 +8,12 @@ if [ ! -x b2 ] ; then
 fi
 
 common_options="--prefix=$JGB_BUILD_DESTDIR target-os=linux --with-thread --with-system --with-filesystem --with-chrono"
-if [ $JGB_BUILD_BUILD_ARCH == x86_64 ] && [[ $JGB_BUILD_HOST_ARCH == "aarch64"* ]] ; then
+if [ $JGB_BUILD_BUILD_ARCH == x86_64 ] && [[ $JGB_BUILD_HOST_ARCH == "aarch64"* || $JGB_BUILD_HOST_ARCH == "arm"* ]] ; then
+  arch=$(echo -n $JGB_BUILD_HOST_ARCH | cut -f 1 -d -)
   cat << EOF > user-config.jam
-using gcc : $(echo -n $JGB_BUILD_HOST_ARCH | cut -f 1 -d -) : ${JGB_BUILD_HOST}-g++ ;
+using gcc : $arch : ${JGB_BUILD_HOST}-g++ ;
 EOF
-  ./b2 toolset=gcc-aarch64 --user-config=user-config.jam $common_options install
+  ./b2 toolset=gcc-$arch --user-config=user-config.jam $common_options install
 else
   ./b2 $common_options install
 fi
