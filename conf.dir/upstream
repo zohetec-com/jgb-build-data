@@ -5,6 +5,7 @@ declare -A jgb_src_chksum
 #jgb_src[]=
 #jgb_src_home[]=
 
+jgb_src[coreutils-9.9]=https://ftp.gnu.org/gnu/coreutils/coreutils-9.9.tar.gz
 jgb_src[libmicrohttpd-1.0.2]=https://ftp.gnu.org/gnu/libmicrohttpd/libmicrohttpd-1.0.2.tar.gz
 
 jgb_src[yaml-0.2.5]=https://github.com/yaml/libyaml/releases/download/0.2.5/yaml-0.2.5.zip
