@@ -1,0 +1,7 @@
+if is_cross_compile ; then
+  	MAKE_OPTIONS="prefix=$JGB_BUILD_DESTDIR CROSS_COMPILE=${JGB_BUILD_HOST}-"
+	MAKE_INSTALL_OPTIONS="DESTDIR= prefix=$JGB_BUILD_DESTDIR"
+	if [ "${JGB_BUILD_HOST}" == aarch64-mix210-linux ] ; then
+		export KBUILD_OUTPUT=/opt/linux/x86-arm/aarch64-mix210-linux/target
+	fi
+fi

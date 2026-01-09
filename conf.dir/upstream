@@ -5,6 +5,8 @@ declare -A jgb_src_chksum
 #jgb_src[]=
 #jgb_src_home[]=
 
+jgb_src[linuxptp-4.4]=https://downloads.nwtime.org/linuxptp/linuxptp-4.4.tgz
+
 jgb_src[phytool-2]=https://github.com/wkz/phytool/archive/refs/tags/v2.zip
 jgb_src[iperf-3.20]=https://github.com/esnet/iperf/releases/download/3.20/iperf-3.20.tar.gz
 jgb_src[coreutils-9.9]=https://ftp.gnu.org/gnu/coreutils/coreutils-9.9.tar.gz
