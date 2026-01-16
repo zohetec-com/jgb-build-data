@@ -1,3 +1,4 @@
-if [ "$JGB_BUILD_HOST_ARCH" == aarch64 ] ; then
-  MAKE_OPTIONS="CROSS=aarch64-linux-gnu-"
+if is_cross_compile ; then
+  MAKE_OPTIONS="CROSS=${JGB_BUILD_HOST}-"
+  MAKE_INSTALL_OPTIONS="prefix=/"
 fi
