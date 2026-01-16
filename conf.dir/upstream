@@ -5,6 +5,7 @@ declare -A jgb_src_chksum
 #jgb_src[]=
 #jgb_src_home[]=
 
+jgb_src[i2c-tools-4.3]=https://github.com/oudream/i2c-tools/archive/refs/tags/v4.3.zip
 jgb_src[linuxptp-4.4]=https://downloads.nwtime.org/linuxptp/linuxptp-4.4.tgz
 
 jgb_src[phytool-2]=https://github.com/wkz/phytool/archive/refs/tags/v2.zip
