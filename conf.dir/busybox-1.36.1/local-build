@@ -1,0 +1,11 @@
+#!/bin/bash
+/bin/cp $JGB_BUILD_CONFIG_DIR/$package_name/config .config -v
+if [[ $JGB_BUILD_HOST_ARCH == "aarch64"* ]] ; then
+	CPPFLAGS=
+	CFLAGS=
+#	make CROSS_COMPILE=${JGB_BUILD_HOST}- defconfig
+#	make CROSS_COMPILE=${JGB_BUILD_HOST}- menuconfig
+	make CROSS_COMPILE=${JGB_BUILD_HOST}-
+	make CROSS_COMPILE=${JGB_BUILD_HOST}- CONFIG_PREFIX=${JGB_BUILD_DESTDIR} -j4 install
+fi
+
