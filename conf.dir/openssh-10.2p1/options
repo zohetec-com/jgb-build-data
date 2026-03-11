@@ -1,0 +1,2 @@
+CONFIGURE_OPTIONS="--disable-etc-default-login --disable-strip"
+MAKE_INSTALL_OPTIONS="DESTDIR=${JGB_BUILD_DESTDIR} prefix=/"

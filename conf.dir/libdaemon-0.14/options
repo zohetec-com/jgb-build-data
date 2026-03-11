@@ -1,0 +1,1 @@
+CONFIGURE_OPTIONS="--disable-lynx --disable-examples ac_cv_func_setpgrp_void=yes"

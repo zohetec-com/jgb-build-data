@@ -1,0 +1,2 @@
+CONFIGURE_OPTIONS="--disable-lynx --disable-xmltoman --disable-subversion ac_cv_func_malloc_0_nonnull=yes"
+MAKE_INSTALL_OPTIONS="DESTDIR=${JGB_BUILD_DESTDIR} prefix=/"
