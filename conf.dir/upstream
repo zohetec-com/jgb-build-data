@@ -6,6 +6,8 @@ declare -A jgb_src_dependencies
 #jgb_src[]=
 #jgb_src_home[]=
 
+jgb_src[lrzsz-0.12.21rc]=https://ohse.de/uwe/testing/lrzsz-0.12.21rc.tar.gz
+
 jgb_src[ifplugd-0.28]=https://0pointer.de/lennart/projects/ifplugd/ifplugd-0.28.tar.gz
 jgb_src_dependencies[ifplugd-0.28]="libdaemon-0.14"
 
