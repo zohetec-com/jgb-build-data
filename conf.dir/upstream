@@ -2,6 +2,11 @@ declare -A jgb_src
 declare -A jgb_src_home
 declare -A jgb_src_chksum
 declare -A jgb_src_dependencies
+declare -A jgb_src_extract_to_install
+
+# for example, installing abc.tar.gz by extracting it without building process
+#jgb_src[abc]=ftp://127.0.0.1/abc.tar.gz
+#jgb_src_extract_to_install[abc]=yes
 
 #jgb_src[]=
 #jgb_src_home[]=
