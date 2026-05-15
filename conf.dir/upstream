@@ -11,6 +11,7 @@ declare -A jgb_src_extract_to_install
 #jgb_src[]=
 #jgb_src_home[]=
 
+jgb_src[strace-6.18]=https://github.com/strace/strace/releases/download/v6.18/strace-6.18.tar.xz
 jgb_src[lrzsz-0.12.21rc]=https://ohse.de/uwe/testing/lrzsz-0.12.21rc.tar.gz
 
 jgb_src[ifplugd-0.28]=https://0pointer.de/lennart/projects/ifplugd/ifplugd-0.28.tar.gz
