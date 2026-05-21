@@ -11,6 +11,7 @@ declare -A jgb_src_extract_to_install
 #jgb_src[]=
 #jgb_src_home[]=
 
+jgb_src[lsof-4.99.6]=https://github.com/lsof-org/lsof/releases/download/4.99.6/lsof-4.99.6.tar.gz
 jgb_src[strace-6.18]=https://github.com/strace/strace/releases/download/v6.18/strace-6.18.tar.xz
 jgb_src[lrzsz-0.12.21rc]=https://ohse.de/uwe/testing/lrzsz-0.12.21rc.tar.gz
 
