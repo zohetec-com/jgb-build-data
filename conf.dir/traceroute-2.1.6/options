@@ -1,4 +1,0 @@
-if is_cross_compile ; then
-  MAKE_OPTIONS="CROSS=${JGB_BUILD_HOST}-"
-  MAKE_INSTALL_OPTIONS="prefix=/"
-fi
