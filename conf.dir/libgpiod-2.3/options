@@ -1,0 +1,1 @@
+MESON_OPTIONS="-Dtests=disabled"

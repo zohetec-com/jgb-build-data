@@ -10,6 +10,7 @@ declare -A jgb_src_extract_to_install
 
 #jgb_src[]=
 #jgb_src_home[]=
+jgb_src[libgpiod-2.3]=https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/snapshot/libgpiod-2.3.tar.gz
 jgb_src[nmap-7.99]=https://nmap.org/dist/nmap-7.99.tar.bz2
 jgb_src[lsof-4.99.6]=https://github.com/lsof-org/lsof/releases/download/4.99.6/lsof-4.99.6.tar.gz
 jgb_src[strace-6.18]=https://github.com/strace/strace/releases/download/v6.18/strace-6.18.tar.xz
