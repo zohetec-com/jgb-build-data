@@ -1,0 +1,1 @@
+CMAKE_OPTIONS="-DJSON_BuildTests=OFF"
