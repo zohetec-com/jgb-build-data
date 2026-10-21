@@ -1,0 +1,15 @@
+[binaries]
+c = 'aarch64-himix100-linux-gcc'
+cpp = 'aarch64-himix100-linux-g++'
+ar = 'aarch64-himix100-linux-ar'
+strip = 'aarch64-himix100-linux-strip'
+
+[host_machine]
+system = 'linux'
+cpu_family = 'aarch64'
+cpu = 'aarch64'
+endian = 'little'
+
+[properties]
+
+[built-in options]
